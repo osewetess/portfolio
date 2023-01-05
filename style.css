@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-image: url(./background.jpg)  ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+   
+}
+.name{
+    font-family: Rubik Vinyl;
+    margin-top: 2%;
+    margin-left: 10%;
+    color: #fff;
+    font-weight: 900;
+}
+.occupation{
+    font-family: Rubik Vinyl;
+    margin-left: 16%;
+    margin-top: 1%;
+    color: #fff;
+}
+.profilepic{
+    margin-top: 1%;
+    width: 5%;
+    margin-right: 2%;
+    float: left;
+    border-radius: 30%;
+}
+
+.container{
+    right: 0;
+    height: fit-content;
+    top: 0;
+    width: 30%;
+    position: absolute;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);
+}
+.skills{
+margin-left: 3%;
+margin-top: 8%;
+font-family: Rubik Vinyl;
+}
+.softskills{
+    margin-left: 15%;
+    font-family:michroma ;
+    font-size: 0.7em;
+}
+.hardskills{
+    margin-left: 3%;
+    font-family: Rubik Vinyl;
+}
+.listskills{
+    margin-left: 15%;
+    font-family: michroma;
+    font-size: 0.7em;
+}
+.container2{
+    margin-top: 3%;
+    margin-left: 6%;
+    width: 50%;
+    position: absolute;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.08);
+}
+.contents{
+    
+    align-items: center;
+    margin-left: 1%;
+    padding: 2%;
+    font-family: michroma;
+    letter-spacing: 2px;
+}
+.contacts{
+    list-style: none;
+    margin-left: 40% ;
+    font-family: michroma;
+    font-weight: 900;
+    font-size: 0.8em;
+    text-decoration: none;
+    margin-top: 20px;
+   
+}
+.contactlist{
+    display: inline;
+    text-decoration: none;
+    display: inline;
+    color: black;
+   
+}
+.footerlist{
+    display: inline;
+    margin-right: 30px;
+   
+}
+.email{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: transform .2s;
+}
+.email:hover{
+    transform: scale(1.5);
+}
+.number{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+.projectstitle{
+    margin-left: 3%;
+    font-family: Rubik Vinyl;
+}
+.projects{
+    list-style: none;
+    margin-left: 10% ;
+    font-weight: 900;
+    font-size: 0.6em;
+    color: #fff;
+   margin-top: 4px;
+}
+.links{
+    text-decoration: none;
+    padding: 2px;
+   
+    
+}
+button{
+    margin-bottom: 8px;
+    padding: 3px;
+    font-family: michroma;
+    font-size: calc(100% + 1px);
+    border-radius: 15px;
+    border: transparent;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    position: fixed;
+    align-items: center;
+}
+
+@media(max-width:790px)  {
+    .container{
+       width: 100%;
+       margin-top: 90%;
+       height: fit-content;
+       
+    }
+    .container2{
+       width: 100%;
+       margin-left: 1%;
+       height: fit-content;
+      
+    }
+    .footer{
+       align-items: center;
+       position: fixed;
+    }
+    
+}
+
+@media(max-width:360px){
+    .container{
+        width: 100%;
+        margin-top: 190%;
+        height: fit-content;
+        font-size: calc(10px + 2rem);
+        
+     }
+}
+@media(max-width:375px){
+    .container{
+        width: 100%;
+        margin-top: 200%;
+        height: fit-content;
+        
+     }
+}
